@@ -1,0 +1,200 @@
+/* #google{
+    border-radius: 50px;
+} */
+
+body{
+    position: relative;
+    margin: 0px;
+    padding:65px;
+    background-color: rgba(216, 216, 225, 0.3);
+    margin-left: 130px;
+    /* background-image: url('/google\ logo.jpg'); */
+    box-sizing: inherit;
+}
+
+.container{
+    width: 880px;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+}
+
+img{
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#sign-in{
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    font-family: Arial;
+    font-weight: normal;   
+}
+
+#tagline{
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    left: 36px;
+    top: 40px;
+    text-align: left;
+}
+
+#word{
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+
+#EMAIL{
+    position: absolute;
+    right: 36px;
+    top: 115px;
+    width: 345px;
+    padding: 15px;
+    font-size: 17px;
+    outline: none;
+    font-family: Arial;
+}
+
+.username label{
+    position: absolute;
+    right: 288px;
+    top: 142px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 0 5px;
+    color: gray;
+    font-size: 16px;
+    font-family: Arial;
+    transition: 0.2s ease;
+}
+
+.username input:not(:placeholder-shown) + label,
+.username input:focus + label{
+    right: 300px;
+    top: 115px;
+    font-size: 12px;
+    color: #0b57d0;
+}
+
+.username input:not(:focus) + label{
+    color: gray;
+}
+
+.username input:focus{
+    border: 2px solid #0b57d0;
+    border-radius: 3px;
+}
+
+
+#forgot-email{
+    display: inline-block;
+    position: absolute;
+    text-decoration:none;
+    right: 325px;
+    top: 180px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #0b57d0;
+    background-color: transparent;
+    padding: 2px 5px;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+
+#forgot-email:hover{
+    background-color: rgba(8, 66, 160, 0.1);
+}
+
+#next-btn{
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #0b57d0;
+    padding: 10px 23px;
+    color: #fff;
+    border-radius: 40px;
+    position: absolute;
+    display: inline-block;
+    right: 36px;
+    bottom: 35px;
+    font-size: 16px;
+    transition: 0.2s;
+    box-shadow: none;
+    transition: 0.2s;
+}
+
+#next-btn:hover{
+    background-color: rgba(8, 66, 160, 1);
+    box-shadow: 0px 1px 2px 1px rgba(8, 66, 160, 0.2);
+}
+
+#create-acc-btn{
+    position: absolute;
+    font-family: sans-serif;
+    color: #0b57d0;
+    background-color: transparent;
+    right: 125px;
+    bottom: 36px;
+    padding: 9px 14px;
+    margin-right: 11px;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    transition: 0.2s;
+}
+
+#create-acc-btn:hover{
+    background-color: rgba(8, 66, 160, 0.04);
+    cursor: pointer;
+}
+
+#guest-mode{
+    font-family: sans-serif;
+    color: rgb(85, 84, 84);
+    position: absolute;
+    font-size: 14px;
+    right: 65px;
+    bottom: 100px;
+}
+
+#guest-mode-link{
+    line-height: 24px;
+    text-decoration: none;
+    color: #0b57d0;
+}
+
+#guest-mode-link:hover{
+    text-decoration: underline;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    right: 200px;
+    bottom: 38px;
+}
+
+nav button{
+    padding: 8px 12px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: sans-serif;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.04s;
+
+}
+
+nav button:hover{
+    background-color: rgba(216, 216, 225, 0.5);
+    cursor: pointer;
+}

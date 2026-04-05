@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    <!-- icon -->
+    <link id="jbwkz-icon" rel="icon" href="JBWKZ_ORIG.png">
+
+    <script>
+        alert("Hello world!")
+    </script>
+    <script src="function.js"></script>
+
+    <style>
+        table, th, td {
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <progress value="28" max="100"> Progress bar</progress>
+
+
+    <!-- linking using anchor tags "a" -->
+    <!-- ------------------------------------------------------------------- -->
+    <a href="https://youtube.com/Jabbawockeez" target="_blank">
+        <img src="JBWKZ_ORIG.png" alt="image" width="300" height="300">
+    </a>
+    <!-- ------------------------------------------------------------------- -->
+
+    
+
+    <!-- header, paragraph, links tags -->
+    <!-- ------------------------------------------------------------------- -->
+    <h1>About Me</h1>
+    <p>Hello, I'm a web developer!</p>
+    <a href="home.html" target="_blank">Home</a> <br>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a> <br>
+    <!-- ------------------------------------------------------------------- -->
+
+
+    <!-- audio and video tags -->
+    <!-- ------------------------------------------------------------------- -->
+    <audio controls loop>
+        <source src="Benson Boone - Beautiful Things (Official Music Video).mp3">
+    </audio>
+    <br>
+    <audio src="Benson Boone - Beautiful Things (Official Music Video).mp3" controls loop>
+        Audio not supported
+    </audio>
+    <br>
+    <video src="WIN_20260327_16_46_03_Pro.mp4" controls loop width="200" height="200">
+        Video not supported
+    </video>
+    <!-- ------------------------------------------------------------------- -->
+
+
+    <!-- LIST -->
+    <!-- ------------------------------------------------------------------- -->
+    <ul>
+        <li>fruits</li>
+        <ul>
+            <li>apple</li>
+            <li>banana</li>
+            <li>grapes</li>
+        </ul>
+        <li>vegetables</li>
+        <ul>
+            <li>carrot</li>
+            <li>cabbage</li>
+            <li>spinach</li>
+        </ul>
+    </ul>
+
+    <ol>
+        <li>fruits</li>
+        <ul>
+            <li>apple</li>
+            <li>banana</li>
+            <li>grapes</li>
+        </ul>
+        <li>vegetables</li>
+        <ul>
+            <li>carrot</li>
+            <li>cabbage</li>
+            <li>spinach</li>
+        </ul>
+    </ol>
+
+    <!-- ------------------------------------------------------------------- -->
+
+
+    <!-- Tables -->
+    <!-- ------------------------------------------------------------------- -->
+     <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+     </table>
+    <br>
+     <table>
+        <caption>Grade</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Names</th>
+                <th colspan="2">Subjects</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Marky</td>
+                <td>94</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>80</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+        
+     </table>
+    <!-- ------------------------------------------------------------------- -->
+
+
+    <!-- FORMS -->
+    <!-- ------------------------------------------------------------------- -->
+     <form target="_blank">
+        <input type="text" minlength="3" maxlength="10" placeholder="input type text" required> <br>
+        <input type="text" size="10" placeholder="input type text"> <br/>
+        <input type="email" placeholder="input type email"> <br/>
+        <input type="password" placeholder="input type password"> <br/>
+        <input type="number"> <br/>
+        <input type="tel"> <br>
+        <input type="search"> <br>
+        <input type="url"> <br>
+        <input type="date"> <br>
+        <input type="datetime-local"> <br>
+        <input type="file" multiple> <br>
+
+        <input id="apple" type="checkbox"> 
+            <label for="apple" >apple</label> <br>
+        <input id="orange" type="checkbox"/>
+            <label for="orange">orange</label> <br/>
+
+        <input id="yes" type="radio" name="answer"/>
+            <label for="yes"> Yes</label> <br/>
+        <input type="radio" id="no" name="answer"/>
+            <label for="no"> No</label> <br/>
+
+        <input type="range" step="2" min="0" max="100"> <br/>
+        <input type="color"/> <br>
+        <textarea name="" id="" cols="10" rows="10">
+
+        </textarea> <br> 
+        <select name="s" id="fruits">
+            <option value="Apple">Apple</option>
+            <option value="mango">mango</option>
+            <option value="orange">orange</option>
+        </select> <br>  
+
+        <label for="characters"> select your hero</label>
+        <select name="HEROS" id="characters">
+            <option value="cyclops">cyclops</option>
+            <option value="wanwan">wanwan</option>
+            <option value="balmond">balmond</option>
+        </select>
+
+        <br>
+
+        <input type="button" value="click me">
+        <input type="reset">
+             
+        <br/>
+
+        <input type="submit"> <br>
+    </form>
+
+    <!-- ------------------------------------------------------------------- -->
+
+
+    <!-- SEMANTICS AND NON-SEMANTICS -->
+    <!-- ------------------------------------------------------------------- -->
+    <div id="navigation">
+        <a href="index.html"> Index </a> |
+        <a href="home.html"> Home</a> |
+    </div>
+
+    <div id="header">
+        <h1>MARKY</h1>
+        <p>Hi im reymark</p>
+    </div>
+
+
+</body>
+
+</html>
